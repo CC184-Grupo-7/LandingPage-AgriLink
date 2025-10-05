@@ -488,14 +488,6 @@ header.sticky{
     color: var(--bg-color);
     transform: translateY(-4px);
 }
-
-.copyright p{
-    text-align: center;
-    padding: 20px;
-    color: #979797;
-    font-size: 15px;
-}
-
 /* ========== RESPONSIVE ========== */
 
 /* Tablet (max-width: 768px) */
@@ -682,10 +674,6 @@ header.sticky{
         justify-content: center;
     }
     
-    .copyright p {
-        font-size: 14px;
-        padding: 15px;
-    }
 }
 
 /* Dispositivos más pequeños (max-width: 400px) */
