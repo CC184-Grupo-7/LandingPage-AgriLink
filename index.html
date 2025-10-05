@@ -3,13 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-
-    <!--custom css link-->
+    <title>AgriLink</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-    <!-- boxicons link -->
-
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -35,14 +30,14 @@
 
       <ul class="navbar">
         <li><a href="#">Home</a></li>
-        <li><a href="#information">Information</a></li>
-        <li><a href="#benefits">Benefits</a></li>
-        <li><a href="#aboutus">About us</a></li>
-        <li><a href="#contactus">Contact us</a></li>
+        <li><a href="#information">Informacion</a></li>
+        <li><a href="#benefits">Beneficios</a></li>
+        <li><a href="#aboutus">Sobre nosotros</a></li>
+        <li><a href="#contactus">Contáctanos</a></li>
       </ul>
 
       <div class="h-right">
-        <a href="#">Follow us</a>
+        <a href="#" class="follow-text">Síguenos</a>
         <a href="#"><i class="ri-instagram-fill"></i></a>
         <a href="#"><i class="ri-twitter-fill"></i></a>
         <a href="#"><i class="ri-facebook-fill"></i></a>
@@ -62,54 +57,55 @@
           agrícolas. <br />
           Compra y vende tus productos con AgriLink.
         </p>
-
+        <a href="#information" class="btn">Conoce más</a>
       </div>
     </section>
 
     <!--feature section design-->
     <section class="feature" id="team">
+      <div class="center-text">
+        <h2>Conoce a nuestro equipo</h2>
+      </div>
       <div class="feature-content">
         <div class="row">
           <div class="row-img">
-            <img src="img/Diego.jpeg" />
+            <img src="img/Diego.jpeg" alt="Diego Reategui" />
           </div>
           <h4>Diego Reategui</h4>
         </div>
 
         <div class="row">
           <div class="row-img">
-            <img src="img/angulo.png" />
+            <img src="img/angulo.png" alt="Marcelo Angulo" />
           </div>
           <h4>Marcelo Angulo</h4>
         </div>
 
         <div class="row">
           <div class="row-img">
-            <img src="img/Esteban.jpg" />
+            <img src="img/Esteban.jpg" alt="Esteban Alvarez" />
           </div>
           <h4>Esteban Alvarez</h4>
         </div>
-
       </div>
     </section>
 
     <!--holiday section design-->
     <section class="holiday" id="information">
       <div class="holiday-img">
-        <!-- <img src="img/h1.png" /> -->
-
+        <img src="img/h1.jpg" alt="Sobre AgriLink" />
       </div>
 
       <div class="holiday-text">
         <h5>Sobre AgriLink</h5>
-        <h2>Impulsa tu Comercio y se tu Propio Jefe</h2>
+        <h2>Impulsa tu Comercio y Maximiza tus Ventas</h2>
         <p>
           Agrilink es una plataforma que conecta a agricultores y compradores,
           facilitando la compra y venta de productos agrícolas de manera eficiente
           y segura. Nuestra misión es apoyar a los agricultores a maximizar sus ventas y 
           a los compradores a acceder a productos frescos y de calidad.
         </p>
-        <a href="#" class="btn">Conoce más</a>
+        <a href="#benefits" class="btn">Conoce más</a>
       </div>
     </section>
 
@@ -121,7 +117,7 @@
 
       <div class="tour-content">
         <div class="box">
-          <img src="img/t1.png" />
+          <img src="img/t1.png" alt="Compra Productos Agricolas" />
           <h6>Compra Productos Agricolas </h6>
           <h4>
             Encuentra una amplia variedad de productos agrícolas frescos y de
@@ -130,7 +126,7 @@
         </div>
 
         <div class="box">
-          <img src="img/t2.png" />
+          <img src="img/t2.png" alt="Vende tus Productos" />
           <h6>Vende tus Productos</h6>
           <h4>
             Publica y vende tus productos agrícolas fácilmente a una amplia
@@ -139,10 +135,10 @@
         </div>
 
         <div class="box">
-          <img src="img/t3.png" />
+          <img src="img/t3.png" alt="Impulsa el Comercio Agricola" />
           <h6>Impulsa el Comercio Agricola</h6>
           <h4>
-            Facilita transacciones seguras y eficientes entre agricultores y
+            Facilita transacciones seguras entre agricultores y
             compradores, promoviendo el comercio local.
           </h4>
         </div>
@@ -152,7 +148,7 @@
     <!--culture section design-->
     <section class="Culture" id="aboutus">
       <div class="Culture-text">
-        <h5>Conoce (nombre de equipo)</h5>
+        <h5>Conoce AgriLink</h5>
         <h2>Conectamos con Agricultores y compradores</h2>
         <p>
           Somos un equipo dedicado a crear soluciones innovadoras que faciliten
@@ -162,7 +158,7 @@
         <a href="#team" class="btn">Nuestro equipo</a>
       </div>
       <div class="Culture-img">
-
+        <img src="img/h2.jpg" alt="Conectamos con Agricultores" />
       </div>
     </section>
 
@@ -179,8 +175,8 @@
         </div>
 
         <form action="">
-          <input type="email" placeholder="Enter your email..." required />
-          <input type="submit" value="Get started" class="btn" />
+          <input type="email" placeholder="Ingresa tu email..." required />
+          <input type="submit" value="Enviar" class="btn" />
         </form>
       </div>
     </section>
@@ -188,25 +184,25 @@
     <!--footer section design-->
     <section class="footer">
       <div class="footer-box">
-        <h3>Services</h3>
+        <h3>Servicios</h3>
         <a href="#">Email Marketing</a>
-        <a href="#">Campaings</a>
-        <a href="#">Brandings</a>
+        <a href="#">Campañas</a>
+        <a href="#">Branding</a>
         <a href="#">Offline</a>
       </div>
 
       <div class="footer-box">
         <h3>About</h3>
-        <a href="#">Our story</a>
-        <a href="#">Benefits</a>
-        <a href="#">Team</a>
-        <a href="#">Careers</a>
+        <a href="#">Nuestra historia</a>
+        <a href="#">Beneficios</a>
+        <a href="#">Equipo</a>
+        <a href="#">Carreras</a>
       </div>
 
       <div class="footer-box">
         <h3>Help</h3>
         <a href="#">FAQs</a>
-        <a href="#">Contact us</a>
+        <a href="#">Contáctanos</a>
       </div>
 
       <div class="footer-box">
@@ -221,7 +217,7 @@
 
     <!--copyright-->
     <div class="copyright">
-      <p>Copyright 2025 By "SofTeam"</p>
+      <p>Copyright 2025 By "AgriLink"</p>
     </div>
 
     <!--custom js file link-->
